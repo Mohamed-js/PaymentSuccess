@@ -11,7 +11,7 @@ let message = "";
 let sub = "";
 
 if (success != null) {
-  if (success) {
+  if (success === true || success === "true") {
     message = "Congratulations!";
     sub =
       "Your payment is success, now you can go to the app and have more fun!";
