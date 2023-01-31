@@ -30,5 +30,5 @@ pr.textContent = sub;
 const btn = document.getElementsByTagName("button")[0];
 
 btn.onclick = () => {
-  window.close();
+  history.go(parseInt(`-${history.length - 1}`));
 };
