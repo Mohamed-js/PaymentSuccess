@@ -19,3 +19,9 @@ if (success != null) {
 }
 
 h1.textContent = message;
+
+const btn = document.getElementsByTagName("button")[0];
+
+btn.onclick = () => {
+  window.close();
+};
