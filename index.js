@@ -5,7 +5,7 @@ const urlParams = new URLSearchParams(queryString);
 const success = urlParams.get("success");
 
 const h1 = document.getElementsByTagName("h1")[0];
-const pr = document.getElementsByTagName("pr")[0];
+const pr = document.getElementsByTagName("p")[0];
 
 let message = "";
 let sub = "";
