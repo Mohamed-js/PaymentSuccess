@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetsMating</title>
   </head>
-  <body>
+  <body style="margin: 0; background: ghostwhite">
     <div
       style="
         display: flex;
@@ -15,12 +15,29 @@
         justify-content: center;
         width: 100vw;
         height: 100vh;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 20px;
       "
     >
-      <h1 style="color: green">Congratulations!</h1>
-      <p>
+      <div style="height: 50vw; width: 50vw">
+        <img
+          src="https://app.petsmating.com/images/app_icon.png"
+          alt="Logo"
+          style="
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+          "
+        />
+      </div>
+      <h1 style="color: #294a9b">Congratulations!</h1>
+      <p style="color: #294a9b">
         Your payment is success, now you can go to the app and have more fun!
       </p>
     </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
