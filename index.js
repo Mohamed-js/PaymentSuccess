@@ -8,6 +8,7 @@ const h1 = document.getElementsByTagName("h1")[0];
 const pr = document.getElementsByTagName("pr")[0];
 
 let message = "";
+let sub = "";
 
 if (success != null) {
   if (success) {
