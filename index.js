@@ -12,12 +12,12 @@ let sub = "";
 
 if (success != null) {
   if (success === true || success === "true") {
-    message = "Congratulations!";
-    sub =
-      "Your payment is success, now you can go to the app and have more fun!";
+    message = "Successful Transaction!";
+    sub = "You can now enjoy the full features of your package.";
   } else {
-    message = "Sorry, payment has failed!";
-    sub = "Your payment has failed, please make sure you enter valid data.";
+    message = "Payment Rejected!";
+    sub =
+      "Your payment has been denied by your bank, please make sure to enter the correct data of a valid credit card.";
   }
 } else {
   message = "Sorry, no data available!";
